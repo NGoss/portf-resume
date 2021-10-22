@@ -1,0 +1,75 @@
+{
+    "name": "Nathan Goss",
+    "email": "nggoss@gmail.com",
+    "github": "github.com/ngoss",
+    "tech": {
+        "frontend": [
+            "React", "Redux", "Node", "Typescript", "JQuery", "CSS3", "SASS", "Flexbox", "Nightwatch JS", "Jest/Enzyme", "Webpack"
+        ],
+        "backend": [
+            "C# .NET", ".NET Core", "Java Spring Boot", "Node/Express", "Nunit", "Junit", "Moq", "Mockito", "MS Testing Framework"
+        ],
+        "database": [
+            "MongoDB", "DynamoDB", "Redis", "mySQL", "Oracle DB"
+        ],
+        "pipeline": [
+            "Docker", "Ansible", "AWS (ECR/ECS, EC2, Lambda, S3, Route53, SNS/SQS)", "Microsoft Azure", "Google Cloud Platform", "Jenkins Scripted & Declarative Pipelines", "SauceLabs"
+        ]
+    },
+    "experience": [
+        {
+            "company": "EBSCO Information Systems",
+            "title": "Senior Software Engineer II",
+            "startDate": "02:18:2017",
+            "endDate": null,
+            "description": [
+                "Developed full stack solutions implementing features for EBSCO’s research product, EBSCOhost",
+                "Maintained and improved significantly large legacy C# and ASP.Net services to both address defects and implement new features for business requirements",
+                "Broke out legacy JQuery EBook reader functionality from monolithic service and re-implemented functionality in React.JS for the frontend and C# .Net for the backend",
+                "Broke out legacy EBook download modal functionality - multi-phase interactive modal which allows the user to download ebooks in both DRM-protected and DRM-free formats, as well as audiobooks - using React.JS frontend and .Net Core backend",
+                "Overhauled accessibility of EBook reader and made significant improvements to accessibility of legacy EBSCOhost frontend",
+                "Led the team in planning and implementing several back-end service improvement features for internal sales tools",
+                "Interfaced with cross-ART architects and teams in the large-scale effort of creating the new EBook reader and EBook download modal for the new next-gen EBSCOhost platform",
+                "Worked with designers and product management to create working designs for our new products and implemented those designs with SASS, CSS, and Flexbox (depending on the service)",
+                "Created and maintained several end-to-end pipelines using scripted Jenkins pipeline integrated with Github which handled both continuous integration and continuous deployment of our products",
+                "Ran series of Lunch ‘n Learns on various aspects of our technical stack and held week-long React bootcamp for the team in order to help spread knowledge and improve team cross-functionality",
+                "Developed next-generation UI & back-end overhaul of EBook reader and EBook download modal",
+                "Developed several back-end metadata services to serve up EBook metadata on-demand to the new EBSCOhost UI"
+            ]
+        },
+        {
+            "company": "Wyle / ActioNet",
+            "title": "Java Software Engineer / DevOps Engineer",
+            "startDate": "06:20:2015",
+            "endDate": "02:18:2017",
+            "description": [
+                "Worked on software development team on contract to the Air Force responsible for the development of the DCGS Integration Backbone (DIB), a J2EE / OSGI-based web application",
+                "Developed in Java to improve and maintain the Distributed Data Framework (DDF), the open-source tool upon which the DIB is built",
+                "Developed unit and integration tests for both the DDF and the DIB using JUnit, Mockito, and Restassured libraries",
+                "Worked alongside senior developers to create new features and improve existing code for the DDF and DIB",
+                "Led DevOps team in the creation of a new cloud-based CI environment using Jenkins and Docker"
+            ]
+        },
+        {
+            "company": "IBM",
+            "title": "Java Software Engineer / DevOps Engineer Intern",
+            "startDate": "05:14:2014",
+            "endDate": "08:28:2014",
+            "description": [
+                "Worked on the GRTE testing team, in charge of developing a new test results aggregation script for parameterized Jenkins CI jobs, and also performed bug fixes and code changes for IBM's internal mail application",
+                "Programmed in Java for the internal mail application, and in Groovy for the results aggregation script"
+            ]
+        },
+        {
+            "company": "MorphoTrust USA",
+            "title": "iOS Security Intern",
+            "startDate": "05:14:2014",
+            "endDate": "08:28:2014",
+            "description": [
+                "Worked on the Advanced Technologies team, in control of the testing and reinforcement of the security in their new iPhone application",
+                "Used knowledge of both Objective-C programming and iPhone / iOS security vulnerabilities and exploits to assess the security status of the application",
+                "Used a security API to bolster application security and fix vulnerabilities"
+            ]
+        }
+    ]
+}

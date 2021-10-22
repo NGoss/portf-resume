@@ -1,0 +1,17 @@
+<div class="resume-container" *ngIf="resumeData">
+    ----------------------------------------------
+    <h1>{{ resumeData.name }}</h1>
+    <h3>{{ resumeData.email }}</h3>
+    <h4>{{ resumeData.github }}</h4>
+    ----------------------------------------------
+    <span><h2>Front-End Technologies:</h2> <h4>{{resumeData.tech.frontend.join(', ')}}</h4></span>
+    <span><h2>Back-End Technologies:</h2> <h4>{{resumeData.tech.backend.join(', ')}}</h4></span>
+    <span><h2>Database Technologies:</h2> <h4>{{resumeData.tech.database.join(', ')}}</h4></span>
+    <span><h2>Pipeline Technologies:</h2> <h4>{{resumeData.tech.pipeline.join(', ')}}</h4></span>
+    ----------------------------------------------
+    <app-collapsible-block *ngFor="let position of resumeData.experience" title="{{position.company}} | {{position.title}}">
+        <ul>
+            <li *ngFor="let descriptionBullet of position.description">{{descriptionBullet}}</li>
+        </ul>
+    </app-collapsible-block>
+</div>

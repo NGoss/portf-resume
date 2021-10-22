@@ -1,0 +1,20 @@
+.collapsible-container {
+    width: 100%;
+    padding-block: 10px;
+    background-color: #003500;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #008000;
+    cursor: pointer;
+    margin-block: 10px;
+}
+
+.chevron-icon {
+    padding-inline: 10px;
+}
+
+.collapsible-contents {
+    width: Calc(100%-4px); /* Accomodate for border width */
+    border: 2px solid #003500;
+    background-color: #001200;
+}
