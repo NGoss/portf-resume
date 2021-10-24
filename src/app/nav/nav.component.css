@@ -12,7 +12,8 @@ ul {
     color: inherit;
     font-size: 24px;
     padding: 10px;
-    margin-inline: 20px;
+    margin-inline-start: 15px;
+    min-width: 75px;
     text-align: center;
     border: 2px solid #008000;
     list-style: none;

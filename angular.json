@@ -20,6 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/",
             "outputPath": "dist/portf-resume",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -54,6 +55,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "baseHref": "/resume/",
               "outputHashing": "all"
             },
             "development": {

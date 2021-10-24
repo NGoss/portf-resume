@@ -1,7 +1,6 @@
 {
   "name": "portf-resume",
   "version": "0.0.0",
-  "homepage": "/resume/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
