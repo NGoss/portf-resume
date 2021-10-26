@@ -9,8 +9,7 @@ import { NavItem } from './nav-item';
 export class NavComponent implements OnInit {
 
   navItems :NavItem[] = [
-    { name: 'Home', link: '/' },
-    { name: 'Projects', link: '/projects' }
+    { name: 'Home', link: '/' }
   ]
   constructor() { }
 
