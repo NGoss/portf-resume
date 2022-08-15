@@ -7,10 +7,10 @@
             "React", "Redux", "Node", "Typescript", "JQuery", "CSS3", "SASS", "Flexbox", "Nightwatch JS", "Jest/Enzyme", "Webpack"
         ],
         "backend": [
-            "C# .NET", ".NET Core", "Java Spring Boot", "Node/Express", "Nunit", "Junit", "Moq", "Mockito", "MS Testing Framework"
+            "C# .NET", ".NET Core", "Java Spring Boot", "Hibernate", "Node/Express", "Nunit", "Junit", "Moq", "Mockito", "MS Testing Framework"
         ],
         "database": [
-            "MongoDB", "DynamoDB", "Redis", "mySQL", "Oracle DB"
+            "MongoDB", "DynamoDB", "Redis", "mySQL", "PostgreSQL"
         ],
         "pipeline": [
             "Docker", "Ansible", "AWS (ECR/ECS, EC2, Lambda, S3, Route53, SNS/SQS)", "Microsoft Azure", "Google Cloud Platform", "Jenkins Scripted & Declarative Pipelines", "SauceLabs"
