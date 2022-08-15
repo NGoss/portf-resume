@@ -17,11 +17,25 @@
         ]
     },
     "experience": [
+      {
+            "company": "Athenium Analytics",
+            "title": "Senior Software Engineer",
+            "startDate": "11:02:2021",
+            "endDate": null,
+            "description": [
+                "Implemented various user, team, and role management workflows for core insurance auditing platform, including new templated SES email notification workflow",
+                "Reimplemented core dashboard and scoring functionality of insurance auditing services to enable faster load times, more maintainable & understandable functional code, and quicker turnaround time on future business needs within these systems",
+                "Assisted in the design and implementation of complex Tableau data integrations across multiple data sources",
+                "Developed integration of proprietary authentication & user management system with Tableau user authentication workflows",
+                "Reduced technical debt across several key services in insurance auditing platform",
+                "Worked with product and QC teams to define, isolate, and fix bugs and critical issues on customer-facing services"
+            ]
+        },
         {
             "company": "EBSCO Information Systems",
             "title": "Senior Software Engineer II",
             "startDate": "02:18:2017",
-            "endDate": null,
+            "endDate": "11:02:2021,
             "description": [
                 "Developed full stack solutions implementing features for EBSCO’s research product, EBSCOhost",
                 "Maintained and improved significantly large legacy C# and ASP.Net services to both address defects and implement new features for business requirements",
